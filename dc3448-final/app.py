@@ -18,11 +18,11 @@ def mainhomepage():
 
 @app.route("/assignments")
 def assignments():
-    return render_template("index.html")
+    return render_template("assignments.html")
 
 @app.route("/myclasses")
 def myclasses():
-    return render_template("index.html")
+    return render_template("myclasses.html")
 
 #start the server
 if __name__ == "__main__":
